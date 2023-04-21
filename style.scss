@@ -1,0 +1,54 @@
+//body reset
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(185, 202, 200);
+}
+
+.area1 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    background-color: cadetblue;
+    border-radius: 3%;
+
+    h3 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .number-area {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            border-radius:5px;
+            border:1px
+            solid #ccc;
+            text-align: center;
+        }
+
+    }
+
+    .number {
+        text-align: center;
+    }
+
+    
+}
